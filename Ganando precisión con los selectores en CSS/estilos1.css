@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+.encabezado {
+    width: auto;
+    height: 5.75rem;
+    background: linear-gradient(95deg, rgb(224, 81, 97), rgb(244, 191, 205));
+}
+#titulo {
+    font-size: 3rem;
+    padding: 15px 5px;
+}
+div ul li:first-child{
+    color: red;
+    font-size: 2rem;
+}
+div ol li:first-child{
+    color: red;
+    font-size: 2rem;
+}
