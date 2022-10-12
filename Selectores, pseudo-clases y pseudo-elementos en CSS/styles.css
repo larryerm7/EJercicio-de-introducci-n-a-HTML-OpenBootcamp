@@ -1,0 +1,19 @@
+.hover {
+    width: 10rem;
+}
+
+.hover::before {
+    content: "Pasa por encima";
+    
+}
+.hover:hover {
+    color: #fff;
+    background-color: green;
+    cursor: pointer;
+    content: "Hecho";
+
+}
+
+.hover:hover::before {
+    content: "Hecho";   
+}
