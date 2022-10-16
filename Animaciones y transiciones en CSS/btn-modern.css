@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+
+    font-size: 14px;
+}
+.btn-modern {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.btn-modern:hover {
+    box-shadow: 1px 1px 1px 1px rgb(168, 168, 168);
+    transform: translateY(-5px);
+    background-color: rgb(14, 108, 108);
+    color: #fff;
+
+}
+
+.btn-modern:active {
+    background-color: rgb(26, 151, 151);;
+}
