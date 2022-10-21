@@ -1,0 +1,50 @@
+.container {
+    margin: auto;
+    max-width: 100%; 
+}
+.row {
+    margin: auto;
+}
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.design-cont {
+    background-color: aquamarine;
+    border: 1px solid aqua;
+    margin: 0.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+}
+.design-cont:hover {
+    background-color: rgb(21, 251, 193);
+    border: 1px solid aquamarine;
+}
+@media (max-width: 1199px) {
+
+    .col {
+        min-width: 20%;
+        flex: 1 0 0%;
+    }
+}
+@media (max-width: 991px) {
+    .col {
+        min-width: 25%;
+        flex: 1 0 0%;
+    }
+}
+@media (max-width: 767px) {
+    .col {
+        min-width: 45%;
+        flex: 1 0 0%;
+    }
+}
+@media (max-width: 575px) {
+    .col {
+        width: 100%;
+        flex: none;
+    }
+}
